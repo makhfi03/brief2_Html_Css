@@ -470,9 +470,7 @@ color: rgba(255, 70, 85, 1);
 }
 
 .titre h1{
-    padding: 90px;
-    margin: 100px;
-    margin-top: 50px;
+    margin-top: 8rem;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -490,15 +488,22 @@ table{
 }
 
 table thead{
-    background-color: #ff00ff8f;
+    background-color: #ff39e17d;
 }
 
 table tbody{
-    background-color: #0099FF;
+    background-color: #2cedff38;
 }
 
 th, td {
   padding: 10px;
   border: 1px solid;
+}
+
+.autrep{
+    border: none;
+    box-shadow: 0 0 10px #00FFFF;
+    background: linear-gradient(110.78deg, #00FFFF 0%, #0099FF 100%);
+    margin-top: 3rem;
 }
 
